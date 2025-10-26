@@ -1,0 +1,1 @@
+export function calcTitleFromCount(count){ if(count<5) return '🐣 Pembaca Baru'; if(count<15) return '📖 Pembaca Aktif'; if(count<30) return '✨ Pengulas Rajin'; if(count<60) return '🔮 Kritikus Hebat'; return '🏆 Master Manhwa'; }
